@@ -1,0 +1,109 @@
+h1,
+h2,
+h3,
+p,
+ul,
+span {
+  margin: 0;
+  padding: 0;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+.wrapper{
+    position: relative;
+    overflow: hidden;
+    background-color: #4743e0;
+    color: #fff;
+    padding-bottom: 60px;
+    padding-top: 60px;
+    min-height: 100vh;
+}
+
+.container{
+    padding: 5%;
+}
+
+.phone-wrap{
+    top: 50%;
+    transform: translateY(-50%);
+    display: flex;
+    position: absolute;
+    left: 10%;
+}
+.right{
+    position: absolute;
+    right: 10%;
+    top: 50%;
+    transform: translate(30%,-50%);
+}
+.row{
+    display: flex;
+    margin-top: 50px;
+    align-items: center;
+    width: 100%;
+    position: relative  ;
+}
+.content{
+    padding-bottom: 60px;
+    margin-top: 240px;
+    position: relative;
+    height: 400px;
+}
+.phone{
+    transform: translateX(-100%);
+    height: 650px;
+    z-index: 99;
+}
+.circle{
+    transform: translateY(10%);
+}
+h2{
+    text-align: center;
+    color: #fff;
+}
+.text-wrap{
+    display: flex;
+    flex-direction: column;
+}
+
+.text-wrap h2{
+    text-align: left;
+    margin-bottom: 15px;
+}
+
+.text-wrap + .text-wrap{
+    margin-top: 30px;
+}
+
+.phone-wrap{
+
+}
+
+.top-blob{
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.top-blob img{
+    object-fit: contain;
+    object-fit: cover;
+    width: 475px;
+    transform: translate(-17%,-33%);
+}
+.bottom-blob{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+
+}
+.bottom-blob img{
+    object-fit: cover;
+    width: 475px;
+    transform: translate(24%,52%);
+}
